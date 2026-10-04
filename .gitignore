@@ -1,0 +1,11 @@
+# Your own Apps Script project ID (copy .clasp.json.example to .clasp.json)
+.clasp.json
+.clasprc.json
+
+# Personal trackers and exports: keep your real spreadsheet out of the repo
+*.xlsx
+!template/*.xlsx
+*.csv
+
+node_modules/
+.DS_Store

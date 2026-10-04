@@ -1,0 +1,12 @@
+{
+  "name": "job-alerts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Sheets job and fellowship tracker that emails a digest when applications open or new roles appear.",
+  "scripts": {
+    "test": "node --test test/parse.test.js test/smoke.test.js",
+    "bundle": "node tools/bundle.js",
+    "push": "npm run bundle && clasp push"
+  },
+  "license": "MIT"
+}
